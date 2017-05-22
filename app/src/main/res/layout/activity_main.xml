@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<github.com.slidingmenu.view.SlidingMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:right_padding="80dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <!-- 菜单 -->
+       <include
+           layout="@layout/menu_layout"></include>
+
+        <!--内容-->
+        <include
+            layout="@layout/content_layout"></include>
+
+    </LinearLayout>
+
+</github.com.slidingmenu.view.SlidingMenu>
