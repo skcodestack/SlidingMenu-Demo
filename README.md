@@ -2,6 +2,7 @@
 仿QQ侧滑效果
 
 
+![](/screenshot/QQ.png)
 
 ### 1.使用：
 
